@@ -6,7 +6,7 @@ if not os.path.exists('bottle.py'):
     urllib.urlretrieve("http://bottlepy.org/bottle.py", "bottle.py")
 from bottle import route, run, request, redirect, static_file
 html='''<!DOCTYPE html><html><head><meta charset="utf-8">
-<div id ="file-drop" style="width:800px;border:2px dashed;">
+<div id ="file-drop" style="width:800px;min-height:600px;border:2px dashed;">
 <h1>50line File Mannger, support drag file to upload</h1><p id="log"></p>
 <form  method="post" enctype="multipart/form-data">
 <input type="text" name="mkdir" placeholder="New Folder">
