@@ -6,7 +6,7 @@
 Inspired by python -m SimpleHTTPServer
 ```
 wget https://raw.githubusercontent.com/gowithwind/50line-filemanager/master/50fm.py
-python 50fm.py
+python 50fm.py DIR
 ```
 # 特点
 0. 基于bottle
