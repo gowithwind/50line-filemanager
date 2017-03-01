@@ -5,5 +5,9 @@
 # 特点
 0. 基于bottle
 1. 兼容python2,3
-2. 易于安装 wget 
+2. 易于安装 
+```
+wget https://raw.githubusercontent.com/gowithwind/50line-filemanager/master/50fm.py
+python 50fm.py
+```
 3. 支持浏览下载文件,拖拽上传文件(仅在新版chrome测试过)
