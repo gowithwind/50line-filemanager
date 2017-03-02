@@ -20,5 +20,8 @@ python 50fm.py DIR
 2. Easy to install and use
 3. Support to browse, download files, drag and drop upload files (only in the new version of chrome test)
 
+#Preview
+![preview](https://raw.githubusercontent.com/gowithwind/50line-filemanager/master/preview.jpg)
+
 # Lisense
 MIT
