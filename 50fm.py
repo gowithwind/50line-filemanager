@@ -32,7 +32,7 @@ file_drop.addEventListener('drop',function(evt) {
 @route('/')
 def index():
     p = request.query.get('p', '')
-    if os.path.isfile(p):
+    if os.path.isfile(os.path.join(root, p)):
         return redirect('/static/' + p)
     files = ['<p><a href="/?p=%s">%s</a></p>'%(os.path.join(p, f), f) for f in os.listdir(os.path.join(root, p))]
     return html%(''.join(files))
